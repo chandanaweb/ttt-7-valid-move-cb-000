@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def vaild_move?(board,index)
+def valid_move?(board,index)
   if index < 9 && index > -1 && (board[index] != 'X' || board[index] != 'O')
     return true
   else
